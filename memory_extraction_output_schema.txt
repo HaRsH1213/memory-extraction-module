@@ -1,0 +1,33 @@
+{
+  "user_preferences": [
+    {
+      "id": "pref_001",
+      "type": "content_style | topics | tools | schedule | misc",
+      "statement": "User prefers concise, bullet-point answers.",
+      "evidence_messages": [3, 7],
+      "confidence": 0.88,
+      "last_seen": "2025-12-01"
+    }
+  ],
+  "user_emotional_patterns": [
+    {
+      "id": "emo_001",
+      "pattern": "User often feels anxious before interviews.",
+      "triggers": ["upcoming interview", "job applications"],
+      "typical_intensity": "medium",
+      "preferred_support_style": "reassurance + concrete, step-by-step advice",
+      "evidence_messages": [5, 12, 19],
+      "confidence": 0.83
+    }
+  ],
+  "user_facts": [
+    {
+      "id": "fact_001",
+      "category": "bio | work | study | health | relationships | misc",
+      "statement": "User is a final-year computer science student.",
+      "evidence_messages": [0],
+      "confidence": 0.9,
+      "last_seen": "2025-12-01"
+    }
+  ]
+}
